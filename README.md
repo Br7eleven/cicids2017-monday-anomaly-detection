@@ -110,7 +110,7 @@ weighted avg       1.00      0.98      0.99    423758
 
 ## 🔖 **GitHub Topics (Tags)**
 
-Add these in your GitHub repo's settings:
+cybersecurity, anomaly-detection, intrusion-detection, cicids2017, isolation-forest, unsupervised-learning, pca, data-cleaning, network-traffic
 
 
 ---
@@ -119,4 +119,13 @@ Add these in your GitHub repo's settings:
 
 **Br7eleven**
 
+## 📄 License
 
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute it. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## ☕ Support
+
+If you found this project helpful or interesting, consider supporting me :)
