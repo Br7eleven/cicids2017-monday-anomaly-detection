@@ -59,57 +59,64 @@ The objective is to:
 weighted avg       1.00      0.98      0.99    423758
 
   ```
-🚀 How to Run (Google Colab)
-Open monday_to_sunday.ipynb in Google Colab.
 
-Upload the dataset (Monday-WorkingHours.pcap_ISCX.csv) from CICIDS2017.
+---
 
-Run cells step by step for:
+## 🚀 **How to Run (Google Colab)**
 
-Cleaning & preprocessing
+1. Open `monday_to_sunday.ipynb` in **Google Colab**  
+2. Upload the dataset: `Monday-WorkingHours.pcap_ISCX.csv` from CICIDS2017  
+3. Run the notebook cells step-by-step:
+   - Cleaning & preprocessing  
+   - PCA visualizations  
+   - Model training & anomaly detection  
 
-PCA visualizations
+---
 
-Model training & anomaly detection
+## 💡 **Future Improvements**
 
-💡 Future Improvements
-Combine with Tuesday to Friday data for multi-class classification.
+- Combine Monday–Friday data for **multi-class classification**  
+- Apply **supervised models** like `RandomForest`, `XGBoost`  
+- Test other unsupervised models: `One-Class SVM`, `AutoEncoders`, `LOF`  
+- Build complete **intrusion detection pipeline** using all CICIDS2017 days  
 
-Apply supervised learning (e.g., RandomForest, XGBoost).
+---
 
-Compare unsupervised methods like One-Class SVM, AutoEncoders, LOF.
+## 🧠 **Technologies Used**
 
-Build a full intrusion detection pipeline using all days of CICIDS2017.
+- Python 3.x  
+- pandas, numpy  
+- seaborn, matplotlib  
+- scikit-learn  
+- Google Colab  
 
-🧠 Technologies Used
-Python 3.x
+---
 
-pandas, numpy
+## 📂 **Project Structure**
 
-matplotlib, seaborn
-
-scikit-learn
-
-Google Colab
-
-📌 Project Structure
-sql
-Copy
-Edit
 📁 cicids2017-monday-anomaly-detection
-├── monday_to_sunday.ipynb       ← Jupyter Notebook with full workflow
-└── README.md                     ← Project documentation
-📚 References
-CICIDS2017 Dataset
+├── monday_to_sunday.ipynb ← Jupyter Notebook with full workflow
+└── README.md ← Project documentation
 
-Isolation Forest - Scikit-learn
 
-🔖 Topics / Tags (GitHub)
-Add these in repo settings (Topics):
+---
 
-css
-Copy
-Edit
-cybersecurity, anomaly-detection, intrusion-detection, cicids2017, isolation-forest, unsupervised-learning, pca, data-cleaning, network-traffic
-🧑‍💻 Author
-Br7eleven
+## 📚 **References**
+
+- [CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)  
+- [Isolation Forest (Scikit-learn)](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)  
+
+---
+
+## 🔖 **GitHub Topics (Tags)**
+
+Add these in your GitHub repo's settings:
+
+
+---
+
+## 🧑‍💻 **Author**
+
+**Br7eleven**
+
+
