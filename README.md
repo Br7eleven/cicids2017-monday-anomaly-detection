@@ -56,3 +56,58 @@ The objective is to:
     accuracy                           0.98    423758
    macro avg       0.50      0.49      0.49    423758
 weighted avg       1.00      0.98      0.99    423758
+
+🚀 How to Run (Google Colab)
+Open monday_to_sunday.ipynb in Google Colab.
+
+Upload the dataset (Monday-WorkingHours.pcap_ISCX.csv) from CICIDS2017.
+
+Run cells step by step for:
+
+Cleaning & preprocessing
+
+PCA visualizations
+
+Model training & anomaly detection
+
+💡 Future Improvements
+Combine with Tuesday to Friday data for multi-class classification.
+
+Apply supervised learning (e.g., RandomForest, XGBoost).
+
+Compare unsupervised methods like One-Class SVM, AutoEncoders, LOF.
+
+Build a full intrusion detection pipeline using all days of CICIDS2017.
+
+🧠 Technologies Used
+Python 3.x
+
+pandas, numpy
+
+matplotlib, seaborn
+
+scikit-learn
+
+Google Colab
+
+📌 Project Structure
+sql
+Copy
+Edit
+📁 cicids2017-monday-anomaly-detection
+├── monday_to_sunday.ipynb       ← Jupyter Notebook with full workflow
+└── README.md                     ← Project documentation
+📚 References
+CICIDS2017 Dataset
+
+Isolation Forest - Scikit-learn
+
+🔖 Topics / Tags (GitHub)
+Add these in repo settings (Topics):
+
+css
+Copy
+Edit
+cybersecurity, anomaly-detection, intrusion-detection, cicids2017, isolation-forest, unsupervised-learning, pca, data-cleaning, network-traffic
+🧑‍💻 Author
+Br7eleven
