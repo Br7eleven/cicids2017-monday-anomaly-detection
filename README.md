@@ -48,6 +48,7 @@ The objective is to:
 - Identified outliers in what should be "clean" benign traffic.
 
 ```text
+
               precision    recall  f1-score   support
 
       BENIGN       1.00      0.98      0.99    423758
@@ -57,6 +58,7 @@ The objective is to:
    macro avg       0.50      0.49      0.49    423758
 weighted avg       1.00      0.98      0.99    423758
 
+  ```
 🚀 How to Run (Google Colab)
 Open monday_to_sunday.ipynb in Google Colab.
 
